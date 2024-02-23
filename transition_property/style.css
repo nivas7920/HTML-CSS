@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 500px;
+    width: 500px;
+   background-color: green;
+    border: 2px solid brown;
+    display: flex;
+}
+   
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid greenyellow;
+    background-color: pink;
+     /* transition property */
+     
+     transition:transform 2s ease-in ;
+
+}
+.box:hover{
+    background-color: red;
+  /*   transform: rotate(360deg); */
+  transform: translateX(700px);
+    
+    
+}

@@ -1,0 +1,65 @@
+.box{
+    border: 2px solid black;
+    border-radius: 10px;
+    color:rgb(70, 161, 161);
+    height: 200px;
+    width: auto;
+    background-image: linear-gradient(red blue);
+    background-image: linear-gradient(to right red yellow);
+
+}
+#first{
+    color: black;
+    background-image: linear-gradient(to right 2px 2px red);
+    background-color: aqua;
+
+    font-style: italic;
+    background-image: linear-gradient(3px 3px rgba(255, 255, 0, 0.296));
+    background-image: radial-gradient(red yellow green);
+    
+}
+.mydiv{
+    border: 1px solid black;
+    margin: 10px;
+    height: 200px;
+    padding: 10px;
+    background-image: radial-gradient(red blue orange);
+    background-image: linear-gradient(red blue);
+}
+
+h1{
+    text-shadow: 3px 3px red;
+    text-shadow: 4px 4px 4px green;
+}
+.text{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 10px pink;
+    color: red;
+}
+.divi{
+    border: 2px solid black;
+    height: 80px;
+    color: red;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    
+}
+.second{
+    background-color: aqua;
+    border: 1px solid yellow;
+  /*  transform: translate(10px 20px); */
+    transform: rotate(120deg); 
+    transform: skewX(20px); 
+    /*transform: matrix(20px 10px); */
+
+}
+.third{
+    border: 2px solid brown;
+    color: #000;
+    background-color: blueviolet;
+    transform: translate(10px 10px);
+    transform:rotate(45deg);
+}
